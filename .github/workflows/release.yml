@@ -65,7 +65,7 @@ jobs:
         run: Compress-Archive -Path dist/FactorForoosh -DestinationPath "FactorForoosh-${{ github.ref_name }}-windows.zip"
 
       - name: Publish GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: FactorForoosh-${{ github.ref_name }}-windows.zip
           generate_release_notes: true
