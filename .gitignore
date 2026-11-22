@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Build output (PyInstaller)
+build/
+dist/
+*.spec
+
+# Runtime data - never commit a real shop database or backups
+*.db
+*.sqlite3
+backups/
+error.log
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

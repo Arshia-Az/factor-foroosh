@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Windows batch files must keep CRLF line endings (and stay ASCII-only)
+*.bat text eol=crlf
+
+# Binary files
+*.png binary
+*.ico binary
+*.ttf binary
